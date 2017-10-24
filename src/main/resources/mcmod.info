@@ -1,0 +1,16 @@
+[
+{
+  "modid": "prospecting",
+  "name": "Beerhunter's Prospecting",
+  "description": "This mods simplify GT prospecting",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["BeerHunter"],
+  "credits": "The Forge and FML guys",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
