@@ -1,8 +1,9 @@
 package com.beerhunter.prospector.init;
 
-public class ProspectingItems {
+public class ProspectorItems {
 
     public static void registerItems() {
+
     }
 
 }

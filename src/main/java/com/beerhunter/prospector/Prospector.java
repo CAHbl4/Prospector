@@ -2,6 +2,7 @@ package com.beerhunter.prospector;
 
 import com.beerhunter.prospector.proxies.CommonProxy;
 import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
@@ -16,16 +17,20 @@ public class Prospector {
     @SidedProxy(clientSide = Reference.CLIENT_PROXY, serverSide = Reference.COMMON_PROXY)
     public static CommonProxy proxy;
 
-    @Mod.EventHandler
-    public void preInit(FMLPreInitializationEvent event) {
+
+    @EventHandler
+    protected void preInit(FMLPreInitializationEvent e) {
+        proxy.preInit(e);
     }
 
-    @Mod.EventHandler
-    public void init(FMLInitializationEvent event) {
+    @EventHandler
+    public void init(FMLInitializationEvent e) {
+        proxy.init(e);
     }
 
-    @Mod.EventHandler
-    public void postInit(FMLPostInitializationEvent event) {
+    @EventHandler
+    public void postInit(FMLPostInitializationEvent e) {
+        proxy.postInit(e);
     }
 
 }
