@@ -2,7 +2,7 @@
 {
   "modid": "prospecting",
   "name": "Beerhunter's Prospecting",
-  "description": "This mods simplify GT prospecting",
+  "description": "Mod that simplifies GT ore boring prospecting",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
