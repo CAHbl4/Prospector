@@ -1,5 +1,6 @@
 package com.beerhunter.prospector.entities;
 
+import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.item.ItemStack;
@@ -36,7 +37,7 @@ public class MinerEntity extends TileEntity implements IInventory {
 
     @Override
     public int getSizeInventory() {
-        return 9;
+        return 19;
     }
 
     @Override
